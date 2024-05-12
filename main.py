@@ -15,7 +15,6 @@ computer_choice=random.randint(0,2)
 print('Computer Choice:')
 print(game_image[computer_choice])
 print('User Choice :')
-# This below line is written to handle these type of cases right?Like if we enter 4 then whi
 if user_choice >= 3 or user_choice < 0:
     print("Invalid number")
 elif computer_choice == user_choice:
